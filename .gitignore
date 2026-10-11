@@ -43,3 +43,8 @@ next-env.d.ts
 # Local environment files
 .env.production
 .env.staging
+
+.env
+.env.local
+.env.*
+!.env.example
