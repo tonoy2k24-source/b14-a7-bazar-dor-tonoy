@@ -31,7 +31,7 @@ export const auth = betterAuth({
   baseURL: getBaseUrl(),
   trustedOrigins: [
     "http://localhost:3000",
-    "https://bazardor-ten.vercel.app",
+    "https://b14-a7-bazar-dor-tonoy-pnddspghe-rafiul-bari-tonoy.vercel.app/",
   ],
   emailAndPassword: {
     enabled: true,
