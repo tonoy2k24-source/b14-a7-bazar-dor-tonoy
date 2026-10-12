@@ -22,7 +22,7 @@ const getBaseUrl = () => {
   return "http://localhost:3000";
 };
 
-// এখানে 'export' থাকা বাধ্যতামূলক
+
 export const auth = betterAuth({
   database: mongodbAdapter(db),
   secret:
