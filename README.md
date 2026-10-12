@@ -1,71 +1,209 @@
-# 🛒 বাজার দর (BazarDor) — নিত্যপ্রয়োজনীয় পণ্যের বাজার দর ট্র্যাকার
+# 🛒 বাজার দর (BazarDor)
+### বাংলাদেশের নিত্যপ্রয়োজনীয় পণ্যের বাজার দর ট্র্যাকার
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![BetterAuth](https://img.shields.io/badge/BetterAuth-Authentication-green?style=for-the-badge)](https://better-auth.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb)](https://www.mongodb.com/)
-[![Deployed on Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel)](https://bazardor-ten.vercel.app)
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/DaisyUI-Components-1AD1A5?style=for-the-badge" alt="DaisyUI" />
+  <img src="https://img.shields.io/badge/BetterAuth-Authentication-16A34A?style=for-the-badge" alt="BetterAuth" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel" alt="Vercel" />
+</p>
 
-**বাজার দর (BazarDor)** হলো একটি আধুনিক ও ফুল-স্ট্যাক ওয়েবাসাইট, যার মাধ্যমে বাংলাদেশে নিত্যপ্রয়োজনীয় পণ্যের (চাল, ডাল, তেল, সবজি, মাছ, মাংস ইত্যাদি) প্রতিদিনের বাজার দর, দামের পরিবর্তন এবং বাজারভিত্তিক বিস্তারিত তথ্য এক নজরে পাওয়া যায়।
+<p align="center">
+  <strong>প্রতিদিনের বাজার দর জানুন, সচেতনভাবে কেনাকাটা করুন।</strong>
+</p>
 
----
-
-## 🔗 গুরুত্বপূর্ণ লিংক (Important Links)
-
-- 🌐 **লাইভ ওয়েবসাইট (Live Demo):** [https://bazardor-ten.vercel.app](https://bazardor-ten.vercel.app)
-- 📁 **গিটহাব রিপোজিটোরি (GitHub Repo):** [https://github.com/dev-marufbillah/bazardor](https://github.com/dev-marufbillah/bazardor)
-
----
-
-## ✨ প্রধান ফিচারসমূহ (Key Features)
-
-1. **📊 লাইভ প্রাইস টিকার (Live Price Ticker):**
-   - নেভবারের নিচে রিয়েল-টাইম স্ক্রলিং স্ট্রিপ যেখানে প্রতিনিয়ত সব পণ্যের নাম, দাম এবং পরিবর্তনের শতাংশ (▲/▼ %) স্বয়ংক্রিয়ভাবে প্রদর্শন করে।
-
-2. **📈 দামের বাড়া-কমা সেকশন (Risings & Fallings Sections):**
-   - হোম পেজে **"আজ দাম বেড়েছে ▲"** এবং **"আজ দাম কমেছে ▼"** শিরোনামে পৃথক ফিল্টার করা সেকশন।
-
-3. **🗂️ ক্যাটাগরি ফিল্টার ও সর্টিং (Category Filtering & Price Sorting - C1 Challenge):**
-   - চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ ও মসলা ক্যাটাগরিতে ফিল্টার করার সুবিধা।
-   - **সাজান (Sort):** গাণিতিক মান অনুযায়ী দাম কম থেকে বেশি এবং বেশি থেকে কম সাজানোর সুবিধা (Bengali Numerals & Numeric Value Supported)।
-
-4. **🔒 বাজারভিত্তিক প্রোডাক্ট ডিটেইলস (Protected Detail Page):**
-   - সুরক্ষিত রাউট (Protected Route) — শুধুমাত্র অথেন্টিকেটেড ব্যবহারকারীরা দেখতে পারেন।
-   - কারওয়ান বাজার, গ্রীন মার্কেট, মিরপুর, চট্টগ্রাম ইত্যাদি বাজার ভিত্তিক **সর্বনিম্ন**, **সর্বোচ্চ** এবং **গড় দামের** বিস্তারিত টেবিল।
-
-5. **🔐 বেটার-অথেন্টিকেশন ও প্রোফাইল ব্যবস্থাপনা (BetterAuth & Profile System - C3 Challenge):**
-   - ইমেইল/পাসওয়ার্ড দিয়ে সাইন আপ ও সাইন ইন।
-   - **Google OAuth** এবং **GitHub OAuth** সামাজিক লগইন সুবিধা।
-   - **প্রোফাইল আপডেট:** প্রোফাইল পেজ (`/profile`) থেকে সরাসরি ইউজারের নাম আপডেট করার সুবিধা।
-   - **রিসপন্সিভ টুস্ট:** প্রতিটি অ্যাকশনে (লগইন, ভুল তথ্য, আপডেট) `react-hot-toast` নোটিফিকেশন।
-
-6. **🎨 ফ্লেক্সিবল ও রেসপন্সিভ ডিজাইন (Responsive & Error Handling):**
-   - মোবাইল, ট্যাবলেট ও ডেস্কটপ সব ডিভাইসে সম্পূর্ণ রেসপন্সিভ (Figma Design System অনুসরণ করে নির্মিত)।
-   - কাস্টম **404 Not Found** পেজ ও লোডিং **Skeleton Animation**।
+<p align="center">
+  <a href="https://b14-a7-bazar-dor-tonoy-pnddspghe-rafiul-bari-tonoy.vercel.app/">
+    <strong>🌐 Live Demo</strong>
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://github.com/tonoy2k24-source/b14-a7-bazar-dor-tonoy">
+    <strong>📂 GitHub Repository</strong>
+  </a>
+</p>
 
 ---
 
-## 🛠️ ব্যবহৃত প্রযুক্তি (Technologies Used)
+## 📌 Project Overview
 
-| ক্যাটাগরি | টেকনোলজি / লাইব্রেরি |
-| :--- | :--- |
-| **Framework** | Next.js 15 (App Router) |
-| **Language** | TypeScript |
-| **Styling** | Tailwind CSS v4, DaisyUI |
-| **Authentication** | BetterAuth (Email/Password, Google OAuth, GitHub OAuth) |
-| **Database** | MongoDB Atlas (Native MongoDB Driver) |
-| **Toast Notifications** | React Hot Toast |
-| **Icons & Assets** | Native Emojis & Custom Local Graphics |
-| **Deployment** | Vercel |
+**বাজার দর (BazarDor)** একটি আধুনিক ফুল-স্ট্যাক ওয়েব অ্যাপ্লিকেশন, যার মাধ্যমে বাংলাদেশের নিত্যপ্রয়োজনীয় পণ্যের বাজার দর, দামের পরিবর্তন এবং বিভিন্ন বাজারের মূল্যসংক্রান্ত তথ্য সহজেই দেখা যায়।
+
+চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম, দুধ ও মসলাসহ বিভিন্ন পণ্যের দাম পর্যবেক্ষণের মাধ্যমে ব্যবহারকারীরা বাজার সম্পর্কে আরও ভালো ধারণা পেতে পারেন।
+
+### 🎯 Project Goals
+
+- দৈনন্দিন পণ্যের দাম সহজে খুঁজে পাওয়া।
+- দাম বৃদ্ধি ও হ্রাসের প্রবণতা পর্যবেক্ষণ করা।
+- ক্যাটাগরি অনুযায়ী পণ্য ফিল্টার ও সাজানো।
+- বিভিন্ন বাজারের দামের তুলনা করা।
+- নিরাপদ লগইন ও ব্যক্তিগত প্রোফাইল ব্যবস্থাপনা নিশ্চিত করা।
 
 ---
 
-## 💻 লোকাল ডেভেলপমেন্ট সেটআপ (Local Installation & Setup)
+## ✨ Key Features
 
-এই প্রজেক্টটি আপনার লোকাল কম্পিউটারে রান করতে নিচের ধাপগুলো অনুসরণ করুন:
+### 📊 1. Live Price Ticker
+- স্ক্রলিং টিকারে পণ্যের নাম ও দাম প্রদর্শন।
+- পণ্যের দামের পরিবর্তন এবং শতকরা ওঠানামা দেখানোর ব্যবস্থা।
 
-### ১. রিপোজিটোরি ক্লোন করুন:
+### 📈 2. Rising & Falling Prices
+- **আজ দাম বেড়েছে ▲** — দাম বৃদ্ধি পাওয়া পণ্য।
+- **আজ দাম কমেছে ▼** — দাম হ্রাস পাওয়া পণ্য।
+- সহজে বাজারের মূল্য পরিবর্তন পর্যবেক্ষণ।
+
+### 🗂️ 3. Category Filtering & Price Sorting
+- চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ ও মসলা অনুযায়ী ফিল্টার।
+- দাম কম থেকে বেশি এবং বেশি থেকে কম সাজানো।
+- বাংলা ও ইংরেজি সংখ্যার ভিত্তিতে মূল্য সাজানোর সুবিধা।
+
+### 🔎 4. Protected Product Details
+- লগইন করা ব্যবহারকারীদের জন্য সুরক্ষিত প্রোডাক্ট ডিটেইলস পেজ।
+- বাজারভিত্তিক সর্বনিম্ন, সর্বোচ্চ ও গড় দামের তথ্য।
+- বিভিন্ন বাজারের দামের তুলনা করার সুবিধা।
+
+### 🔐 5. Authentication & Profile Management
+- ইমেইল ও পাসওয়ার্ড দিয়ে Sign Up এবং Sign In।
+- Google OAuth এবং GitHub OAuth লগইন।
+- `/profile` পেজ থেকে ব্যবহারকারীর নাম আপডেট।
+- সফল ও ব্যর্থ অ্যাকশনের জন্য Toast Notifications।
+
+### 📱 6. Responsive UI & Error Handling
+- মোবাইল, ট্যাবলেট ও ডেস্কটপ উপযোগী ডিজাইন।
+- পরিচ্ছন্ন UI এবং সহজ নেভিগেশন।
+- কাস্টম 404 Not Found পেজ।
+- Loading Skeleton Animation।
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Framework | Next.js 15 — App Router |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4, DaisyUI |
+| Authentication | BetterAuth |
+| Database | MongoDB Atlas |
+| Notifications | React Hot Toast |
+| Deployment | Vercel |
+| Version Control | Git & GitHub |
+
+---
+
+## 🚀 Getting Started
+
+নিজের কম্পিউটারে প্রজেক্টটি চালানোর জন্য নিচের ধাপগুলো অনুসরণ করো।
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+- MongoDB Atlas account
+
+### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/dev-marufbillah/bazardor.git
-cd bazardor
+git clone https://github.com/tonoy2k24-source/b14-a7-bazar-dor-tonoy.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd b14-a7-bazar-dor-tonoy
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+প্রজেক্টের root directory-তে `.env.local` ফাইল তৈরি করে প্রয়োজনীয় environment variables যোগ করো।
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+BETTER_AUTH_SECRET=your_secret_key
+BETTER_AUTH_URL=http://localhost:3000
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+GITHUB_CLIENT_ID=your_github_client_id
+GITHUB_CLIENT_SECRET=your_github_client_secret
+```
+
+**নোট:** এগুলো উদাহরণস্বরূপ দেওয়া variable name। প্রজেক্টের কোডে ব্যবহৃত প্রকৃত নামের সঙ্গে মিলিয়ে নিতে হবে। কোনো secret বা API credential GitHub-এ প্রকাশ করবে না।
+
+### 5. Run the Development Server
+
+```bash
+npm run dev
+```
+
+এবার ব্রাউজারে নিচের ঠিকানাটি খোলো:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 📁 Project Structure
+
+প্রজেক্টের প্রকৃত folder structure অনুযায়ী এই অংশটি প্রয়োজনমতো আপডেট করবে।
+
+```text
+b14-a7-bazar-dor-tonoy/
+├── public/
+├── src/
+│   └── app/
+├── package.json
+├── package-lock.json
+├── next.config.ts
+├── tsconfig.json
+├── postcss.config.mjs
+└── README.md
+```
+
+---
+
+## 🌐 Important Links
+
+| Resource | Link |
+|---|---|
+| 🌐 Live Website | [Visit BazarDor](https://b14-a7-bazar-dor-tonoy-pnddspghe-rafiul-bari-tonoy.vercel.app/) |
+| 📂 GitHub Repository | [View Source Code](https://github.com/tonoy2k24-source/b14-a7-bazar-dor-tonoy) |
+
+---
+
+## 🔒 Security Notes
+
+- `.env.local` ফাইল GitHub-এ আপলোড করবে না।
+- Authentication ও protected routes সার্ভার-সাইডে যথাযথভাবে যাচাই করতে হবে।
+- MongoDB credentials নিরাপদে সংরক্ষণ করতে হবে।
+- OAuth ব্যবহারের আগে সংশ্লিষ্ট provider-এর callback URL কনফিগার করতে হবে।
+
+---
+
+## 👨‍💻 Developer
+
+**Rafiul Bari Tonoy**
+
+- GitHub: [@tonoy2k24-source](https://github.com/tonoy2k24-source)
+- Project: [BazarDor — Live Demo](https://b14-a7-bazar-dor-tonoy-pnddspghe-rafiul-bari-tonoy.vercel.app/)
+
+---
+
+<p align="center">
+  <strong>🛒 বাজার দর — বাজার সম্পর্কে জানুন, সঠিক সিদ্ধান্ত নিন।</strong>
+</p>
+
+<p align="center">
+  Made with ❤️ using Next.js
+</p>
