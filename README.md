@@ -196,7 +196,7 @@ b14-a7-bazar-dor-tonoy/
 **Rafiul Bari Tonoy**
 
 - GitHub: [@tonoy2k24-source](https://github.com/tonoy2k24-source)
-- Project: [BazarDor — Live Demo](https://b14-a7-bazar-dor-tonoy-pnddspghe-rafiul-bari-tonoy.vercel.app/)
+- Project: [BazarDor — Live Demo](https://b14-a7-bazar-dor-tonoy.vercel.app)
 
 ---
 
